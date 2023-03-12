@@ -1,0 +1,16 @@
+# Remove after setting your values
+default = true
+
+# Set your client ID and secret from your spotify application
+[spotify]
+client = "your_client_id"
+secret = "your_client_secret"
+
+# To enable caching auth tokens, set enabled to true and a password
+[spotify.caching]
+enabled = false
+password = "set password here"
+
+# Ignore, autoset by software
+[file]
+version = "1.0.0"
