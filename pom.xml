@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>space.b00tload</groupId>
+    <groupId>space.b00tload.spotifyutils</groupId>
     <artifactId>SpotifyDedupe</artifactId>
-    <version>1.0.0.alpha1</version>
+    <version>1.0.0</version>
 
     <name>SpotifyDeduper</name>
     <description>Removes duplicates from spotify playlists.</description>
@@ -89,10 +89,20 @@
             <version>2.11.0</version>
         </dependency>
         <dependency>
-        <groupId>com.electronwill.night-config</groupId>
-        <artifactId>toml</artifactId>
-        <version>3.6.0</version>
-    </dependency>
+            <groupId>com.electronwill.night-config</groupId>
+            <artifactId>toml</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.javalin</groupId>
+            <artifactId>javalin</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.6</version>
+        </dependency>
     </dependencies>
 
 </project>
