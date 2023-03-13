@@ -23,6 +23,7 @@ public class VersionChecker {
         } else if (latestVersion == null) {
             System.out.println("Error: Failed to retrieve latest release version");
         } else if (currentVersion.compareTo(latestVersion) < 0) {
+            System.out.println("Download at https://github.com/B00tLoad/SpotifyDedupe/releases/latest");
             System.out.println("A new version is available: " + latestVersion);
         } else {
             System.out.println("You are running the latest version: " + currentVersion);
