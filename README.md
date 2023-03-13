@@ -1,4 +1,5 @@
 # SpotifyDedupe
+
 This command-line-tool removes all duplicate tracks (also from different releases, matching by Trackname and Artists) from a spotify playlist.
 ---
 
