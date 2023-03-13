@@ -6,7 +6,7 @@
 
     <groupId>space.b00tload.spotifyutils</groupId>
     <artifactId>SpotifyDedupe</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
 
     <name>SpotifyDeduper</name>
     <description>Removes duplicates from spotify playlists.</description>
