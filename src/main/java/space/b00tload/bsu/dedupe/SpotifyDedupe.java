@@ -150,6 +150,7 @@ public class SpotifyDedupe {
         Collections.reverse(duplicateTracks);
         for(DuplicateTrack dupe : duplicateTracks){
             pagination++;
+            System.out.println("Removing \"" + getArtistNames(dupe.track().getArtists()) + ": " + dupe.track().getName() + "\" at position " + dupe.location() + ".");
             JsonObject track = new JsonObject();
             track.addProperty("uri", dupe.track().getUri());
             JsonArray loc = new JsonArray();
